@@ -55,3 +55,10 @@ console.log("Sorted array: ",sortElement(employees,"name"));
 // console.log("Before sorting: ", arr)
 // console.log("After sorting: ", bubbleSort(arr))
 
+function MyTest(name,age){
+    this.name = name;
+    this.age = age
+}
+
+const myObj = new MyTest("namrata",28);
+
